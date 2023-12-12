@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <nav>
+  <nav> x
     <router-link to="/">Home</router-link>
     <router-link to="/Articles">Articles</router-link>
     <router-link to="/about">About</router-link>
