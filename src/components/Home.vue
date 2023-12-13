@@ -2,7 +2,6 @@
 import Post from './Post.vue'
 </script>
 
-
 <template>
   <h1>c-News</h1>
   <ul>
