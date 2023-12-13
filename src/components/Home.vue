@@ -8,7 +8,7 @@ import Post from './Post.vue'
   <ul>
     <h2>Recent Articles</h2>
     <li v-for="post in posts" :key="posts.id">
-      <router-link to="/post/ + post.id">{{post.title}}</router-link>
+      <router-link :to="{ path: '/post/' + post.id }">{{post.title}}</router-link>
     </li>
   </ul>
 </template>
